@@ -1,0 +1,19 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+.vibe-wise
+
+# Local design explorations (keep locally, omit from Git)
+/app/concepts/
+/components/ConceptPortfolio.tsx
+/public/previews/
+
+# Generated reports and logs
+*.log
+/coverage/
+/playwright-report/
+/test-results/
